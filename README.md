@@ -24,10 +24,12 @@ URL:
 http://localhost:8080/v1/resource
 
 Request Body: 
+```
 {
 	"name": "AJ",
 	"age": 32
 }
+```
 This will create a resource in H2 in memory database
 
 2. Get the resource using GET endpoint
@@ -44,8 +46,10 @@ URL:
 http://localhost:8080/v1/resource/1/
 
 Request Body: 
+```
 {
 	"name": "Name Changed",
 	"age": 35
 }
+```
 
